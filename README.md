@@ -1,4 +1,10 @@
 # Color.fromString
+
+An important update !  From a Reddit user (pengo-san) that commented on my thread for this...
+they found the following blog entry that you should read if you are needing more than what my solution offers.
+https://nilcoalescing.com/blog/EncodeAndDecodeSwiftUIColor/
+
+
 SwiftUI's Color object is not codable - and therefore not easy to store.  This makes it simple by allowing you to store a Color using Color.description and then recreating the Color using this function as an extension to Color
 
 Simple to use...
